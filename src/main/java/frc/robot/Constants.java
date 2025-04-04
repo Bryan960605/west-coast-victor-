@@ -16,16 +16,4 @@ public final class Constants {
   public static class OperatorConstants {
     public static final int kDriverControllerPort = 0;
   }
-
-  public static final double setMaxOutput(double value, double maxOutput){
-    if(value > maxOutput){
-      return maxOutput;
-    }
-    else if(value < -maxOutput){
-      return -maxOutput;
-    }
-    else{
-      return value;
-    }
-  } 
 }
